@@ -1,0 +1,7 @@
+SELECT 
+    subreddit,
+    COUNT(*) AS positive_count
+FROM posts
+WHERE sentiment = 'positive'
+GROUP BY subreddit
+ORDER BY positive_count DESC;

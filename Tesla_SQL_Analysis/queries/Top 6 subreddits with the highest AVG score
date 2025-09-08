@@ -1,0 +1,7 @@
+SELECT 
+    subreddit, 
+    AVG(score) AS avg_score
+FROM posts
+GROUP BY subreddit
+ORDER BY avg_score DESC
+LIMIT 6;

@@ -1,0 +1,7 @@
+SELECT 
+    subreddit,
+    COUNT(*) AS neutral_count
+FROM posts
+WHERE sentiment = 'neutral'
+GROUP BY subreddit
+ORDER BY neutral_count DESC;

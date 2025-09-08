@@ -1,0 +1,5 @@
+SELECT DATE(tpep_pickup_datetime)
+FROM yellow_taxi_data
+WHERE DATE(tpep_pickup_datetime) BETWEEN '2024-03-01' AND '2024-03-31'
+ORDER BY tip_amount DESC
+LIMIT 1;

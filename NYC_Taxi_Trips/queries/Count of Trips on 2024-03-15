@@ -1,0 +1,5 @@
+select count(*) as totalTrips
+from yellow_taxi_data
+where date(tpep_pickup_datetime) = '2024-03-15';
+
+

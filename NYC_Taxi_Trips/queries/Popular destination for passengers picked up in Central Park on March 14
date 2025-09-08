@@ -1,0 +1,10 @@
+SELECT COALESCE(dropoff."Zone", 'Unknown') AS most_popular_destination,
+       COUNT(*) AS counter
+FROM yellow_taxi_data
+JOIN zones pickup ON yellow_taxi_data."PULocationID" = pickup."LocationID"
+LEFT JOIN zones dropoff ON yellow_taxi_data."DOLocationID" = dropoff."LocationID"
+WHERE DATE(yellow_taxi_data.tpep_pickup_datetime) = '2024-03-14'
+  AND pickup."Zone" = 'Central Park'
+GROUP BY dropoff."Zone"
+ORDER BY counter DESC
+LIMIT 1;

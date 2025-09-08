@@ -1,0 +1,8 @@
+SELECT 
+    to_timestamp(created_utc)::date AS date,
+    sentiment,
+    COUNT(*) AS count
+FROM posts
+WHERE subreddit ILIKE '%technology%'
+GROUP BY date, sentiment
+ORDER BY date;

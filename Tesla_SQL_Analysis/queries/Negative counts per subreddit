@@ -1,0 +1,7 @@
+SELECT 
+    subreddit,
+    COUNT(*) AS negative_count
+FROM posts
+WHERE sentiment = 'negative'
+GROUP BY subreddit
+ORDER BY negative_count DESC;

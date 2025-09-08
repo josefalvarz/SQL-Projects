@@ -1,0 +1,6 @@
+SELECT 
+    subreddit, 
+    sentiment, 
+    COUNT(*) AS count
+FROM posts
+GROUP BY subreddit, sentiment;

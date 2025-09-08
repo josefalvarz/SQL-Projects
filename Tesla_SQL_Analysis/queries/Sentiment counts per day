@@ -1,0 +1,7 @@
+SELECT 
+    to_timestamp(created_utc)::date AS date,
+    sentiment,
+    COUNT(*) AS count
+FROM posts
+GROUP BY date, sentiment
+ORDER BY date;

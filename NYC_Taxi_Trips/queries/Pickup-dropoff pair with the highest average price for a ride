@@ -1,0 +1,10 @@
+SELECT
+  pickup."Zone" AS pickup,
+  dropoff."Zone" AS dropoff,
+  AVG(yellow_taxi_data.total_amount) AS average_total
+FROM yellow_taxi_data
+LEFT JOIN zones pickup ON yellow_taxi_data."PULocationID" = pickup."LocationID"
+LEFT JOIN zones dropoff ON yellow_taxi_data."DOLocationID" = dropoff."LocationID"
+GROUP BY pickup."Zone", dropoff."Zone"
+ORDER BY average_total DESC
+LIMIT 1;
