@@ -12,7 +12,7 @@ Structure
   - Focused exploration of Tesla data to understand patterns and trends.  
 
 - Queries and Results 
-  - Organized SQL scripts paired with outcomes for clarity and reproducibility.  
+  - Organized SQL scripts paired with outcomes for clarity.  
 
 - Screenshots
   - Visual captures of query execution and results.  
