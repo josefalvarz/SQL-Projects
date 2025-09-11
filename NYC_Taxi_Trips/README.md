@@ -1,4 +1,3 @@
-Context
 The following project is based on taxi trip data from New York City, provided by our Big Data & Analytics professor. The dataset includes details such as pickup and drop-off times and locations, fare amounts, trip distances, and more. This information is valuable for analyzing taxi demand and transportation patterns in one of the most congested cities in the world.
 
 Project Goal
