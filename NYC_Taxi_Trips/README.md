@@ -1,6 +1,7 @@
 The following project is based on taxi trip data from New York City, provided by our Big Data & Analytics professor. The dataset includes details such as pickup and drop-off times and locations, fare amounts, trip distances, and more. This information is valuable for analyzing taxi demand and transportation patterns in one of the most congested cities in the world.
 
 Project Goal
+
 The goal of this project is to gain hands-on experience with both pgAdmin and SQL while analyzing New York City taxi trip data. The project aims to answer key questions that provide insights into travel patterns and pricing. Specifically, it focuses on:
 
 1. Measuring daily trip volumes (e.g., total trips on specific dates).
