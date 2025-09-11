@@ -24,8 +24,5 @@ Results
 
 The analysis reveals a clear contrast in how Tesla is perceived: while financial discussions around stocks and investments generate predominantly positive sentiment, conversations about technology and products lean strongly toward neutral or negative views. Subreddits focused on technology, in particular, show high engagement but with critical tones around features such as autopilot, Cybertruck, and repairs.
 
-Conclusion
-
-Tesla enjoys a strong reputation in the market, but many people remain skeptical about its technology. To improve overall sentiment, the company should focus on fixing product issues—like concerns around autopilot and vehicle performance—while continuing to build on the trust it already has with investors.
 
 
