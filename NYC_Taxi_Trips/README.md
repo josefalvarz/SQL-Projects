@@ -13,6 +13,7 @@ The goal of this project is to gain hands-on experience with both pgAdmin and SQ
 4. Finding pickup–drop-off pairs with the highest average fares.
 
 Business Value
+
 This project not only supports data analysis and technical learning but also highlights its business relevance. For example, if passengers picked up near Central Park often travel to the Statue of Liberty, we might assume that they have walked a lot in Central Park, are likely tired, and may be hungry or thirsty—creating an opportunity to open a restaurant near the point of destination, The Statue of Liberty. This demonstrates how combining data analysis with business vision can uncover valuable opportunities.
 
 Methodology
