@@ -40,4 +40,5 @@ Results
 On March 15, there were 128,813 taxi trips recorded in New York City. For passengers picked up in Central Park on March 14, the most popular destination was Midtown Center. The largest single tip in March occurred on March 3, 2024. Finally, the pickup–drop-off pair with the highest average fare was Bayside / Outside of NYC.
 
 Conclusion
+
 The analysis of NYC taxi trips highlighted key insights, from the most frequent destinations to the days with the highest tips. While this study focused mainly on the month of March, it opens the door to extending the analysis over longer periods to uncover broader trends and more meaningful insights into NYC taxi demand.
