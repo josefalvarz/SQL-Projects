@@ -6,7 +6,7 @@ The main goal of this project is to analyze public sentiment around Tesla by lev
 
 Business Value
 
-Tesla operates in a competitive and volatile market. Real-time sentiment analysis helps in:
+Tesla operates in a competitive and volatile market. Real time sentiment analysis helps in:
 -	Identifying risks or emerging controversies.
 -	Evaluate public reaction to events.	
 -	Hear what customers are concerned about and their opinions.
